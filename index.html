@@ -1,13 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./main.css" />
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+  </head>
+  <body class="bg-gray-100">
+    <div
+      class="container mt-28 px-2 sm:mt-12 flex sm:mx-auto sm:justify-center sm:items-center"
+    >
+      <div class="w-1/3 sm:mx-14 mx-2">
+        <img
+          class="w-72 -ml-[11px] sm:-ml-[4px]"
+          src="./assets/facebook.svg"
+          alt="Image"
+        />
+        <p class="text-black text-xs sm:text-2xl sm:mx-6">
+          Facebook helps you connect and share with the people in your life.
+        </p>
+      </div>
+      <div
+        class="flex flex-col bg-white shadow-xl w-3/5 sm:w-1/3 h-3/4 -mt-[42px] sm:p-2 sm:m-2 sm:mt-28 relative"
+      >
+        <input
+          class="border border-solid border-slate-300 m-2 px-1 py-1 sm:m-3 sm:px-2 sm:py-3 sm:rounded-lg rounded text-xs outline-blue-400"
+          type="text"
+          placeholder="Email Address or Phone number"
+        />
+        <input
+          class="border border-solid border-slate-300 m-2 px-1 py-1 sm:m-3 sm:px-2 sm:py-3 sm:rounded-lg rounded text-xs outline-blue-400"
+          type="password"
+          placeholder="Password"
+        />
+        <button
+          class="m-2 px-1 py-1 sm:m-3 sm:px-2 sm:py-3 sm:rounded-lg rounded bg-blue-500 text-white sm:text-lg text-sm font-bold cursor-pointer hover:bg-blue-600"
+        >
+          Log in
+        </button>
+        <span
+          class="text-blue-500 text-center my-1 sm:my-3 cursor-pointer hover:underline sm:text-lg text-sm"
+          >Forgotten Me</span
+        >
+        <hr class="my-1 sm:my-2" />
+        <button
+          class="m-2 px-2 py-1 sm:px-4 sm:py-3 sm:rounded-lg rounded-sm bg-green-500 text-white sm:text-lg text-sm w-fit mx-auto cursor-pointer hover:bg-green-600"
+        >
+          Creat new account
+        </button>
+        <span
+          class="text-[8px] sm:text-sm absolute -bottom-8 sm:-bottom-10 ml-3"
+          ><span class="font-bold hover:underline cursor-pointer"
+            >Create a Page</span
+          >
+          for a celebrity, brand or business.</span
+        >
+      </div>
+    </div>
+  </body>
 </html>
